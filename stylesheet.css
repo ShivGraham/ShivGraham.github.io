@@ -1,0 +1,130 @@
+.container {
+	position: relative;
+	font-family: Garamond, 'sans-serif';
+}
+
+html {
+	background: url("http://scandinavianlandscape.com/wp-content/uploads/2012/04/Hegg1.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+	border-bottom: 5px solid #9775AA;
+}
+
+#top
+{
+	font-size: 16px;
+	padding-left: 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#bottom {
+	padding-top: -107px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 40px auto;
+}
+
+p:nth-child(6) {
+	width: 60%;
+	font-family: Georgia, 'sans-serif';
+}
+
+.info_on_right {
+	float: right;
+	margin-right: 300px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+img {
+	position: absolute;
+	z-index: 2;
+	-webkit-transform: rotateZ(-10deg);
+	-ms-transform: rotateZ(-10deg);
+	transform: rotateZ(-5deg);
+	/*padding-right: 10px;*/
+	width: 294px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;  
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: -9em 1em -50em 60em;
+
+}
+
+.headings {
+	font-size: 16px;
+	font-weight: bold;
+	width: 20%;
+	text-align: right;
+	border-right: 5px solid #9775AA;
+	padding-right: 20px;
+	float: left;
+	clear: both;
+}
+
+.headings.edu_h {
+	padding-bottom: 35px;
+}
+
+
+.headings.skills_h {
+	margin-top: -25px;
+	padding-bottom: 100px;
+}
+
+.headings.exp_h {
+	margin-top: 40px;
+	padding-bottom: 105px;
+}
+
+.headings.hobbies_h {
+	margin-top: 45px;
+	padding-bottom: 35px;
+}
+
+.headings.ref_h {
+	margin-top: -20px;
+	padding-bottom: 50px;
+}
+
+.details {
+	font-size: 18px;
+	width: 75%;
+	top: -20px;
+	position: relative;
+	float: right;
+	margin-right: -50px;
+	clear: both;
+}
+
+.details.edu_d {
+	margin-bottom: 10px;
+}	
+
+.details.skills_d {
+	margin-bottom: 10px;
+}
+
+.details.exp_d {
+	margin-bottom: 10px;
+}
+
+.details.hobbies_d {
+	margin-bottom: 10px;
+}
+
+.details.ref_d {
+	margin-bottom: 10px;
+}
